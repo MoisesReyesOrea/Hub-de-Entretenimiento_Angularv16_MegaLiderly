@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Hub-de-entretenimiento';
+  mostrarNavbar: boolean = false;
+  mostrarLogin: boolean = true;
 }
