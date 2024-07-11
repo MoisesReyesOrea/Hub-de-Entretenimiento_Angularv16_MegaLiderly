@@ -1,0 +1,54 @@
+{
+    "data":[
+        {
+            "_id": 1,
+            "name": "La Casa del Dragón",
+            "temporadas": 2,
+            "episodies": 10,
+            "year": 2022,
+            "director": "Clare Kilner; Geeta Patel; Miguel Sapochnik; Greg Yaitanes",
+            "genre": "drama",
+            "type": "pelicula"
+        },
+        {
+            "_id": 1,
+            "name": "The Last of Us",
+            "temporadas": 2,
+            "episodies": 10,
+            "year": 2023,
+            "director": "Bruce Straley; Neil Druckmann",
+            "genre": "drama",
+            "type": "pelicula"
+        },
+        {
+            "_id": 1,
+            "name": "La Casa del Dragón",
+            "temporadas": 2,
+            "episodies": 10,
+            "year": 2022,
+            "director": "Clare Kilner; Geeta Patel; Miguel Sapochnik; Greg Yaitanes",
+            "genre": "drama",
+            "type": "pelicula"
+        },
+        {
+            "_id": 1,
+            "name": "La Casa del Dragón",
+            "temporadas": 2,
+            "episodies": 10,
+            "year": 2022,
+            "director": "Clare Kilner; Geeta Patel; Miguel Sapochnik; Greg Yaitanes",
+            "genre": "drama",
+            "type": "pelicula"
+        },
+        {
+            "_id": 1,
+            "name": "La Casa del Dragón",
+            "temporadas": 2,
+            "episodies": 10,
+            "year": 2022,
+            "director": "Clare Kilner; Geeta Patel; Miguel Sapochnik; Greg Yaitanes",
+            "genre": "drama",
+            "type": "pelicula"
+        }
+    ]
+}

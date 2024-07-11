@@ -1,0 +1,41 @@
+{
+    "data":[
+    {
+        "_id": 1,
+        "name": "Deadpool 3",
+        "year": 2024,
+        "director": "Shawn Levy",
+        "genre": "accion",
+        "type": "pelicula"
+    },
+    {
+        "_id": 2,
+        "name": "Avatar 2",
+        "year": 2022,
+        "director": "James Cameron",
+        "genre": "accion",
+        "type": "pelicula"
+    },{
+        "_id": 3,
+        "name": "Oppenheimer",
+        "year": 2023,
+        "director": "Christopher Nolan",
+        "genre": "suspenso",
+        "type": "pelicula"
+    },{
+        "_id": 4,
+        "name": "El Hobbit",
+        "year": 2014 ,
+        "director": "Shawn Levy",
+        "genre": "fantasía",
+        "type": "pelicula"
+    },{
+        "_id": 5,
+        "name": "Los Dioses Deben Estar Locos",
+        "year": 1980,
+        "director": "Jamie Uys",
+        "genre": "Comedia",
+        "type": "pelicula"
+    }
+    ]
+}

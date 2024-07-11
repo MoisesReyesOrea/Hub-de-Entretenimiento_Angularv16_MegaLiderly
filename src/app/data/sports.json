@@ -1,0 +1,44 @@
+{
+    "data":[
+        {
+            "_id": 1,
+            "name": "Francia vs España",
+            "year": 2024,
+            "tournament": "Eurocopa",
+            "genre": "futbol",
+            "type": "pelicula"
+        },
+        {
+            "_id": 1,
+            "name": "Argentina vs Canada",
+            "year": 2024,
+            "tournament": "Copa america",
+            "genre": "futbol",
+            "type": "sport"
+        },
+        {
+            "_id": 1,
+            "name": "Deadpool 3",
+            "year": 2024,
+            "director": "Shawn Levy",
+            "genre": "accion",
+            "type": "pelicula"
+        },
+        {
+            "_id": 1,
+            "name": "Deadpool 3",
+            "year": 2024,
+            "director": "Shawn Levy",
+            "genre": "accion",
+            "type": "pelicula"
+        },
+        {
+            "_id": 1,
+            "name": "Deadpool 3",
+            "year": 2024,
+            "director": "Shawn Levy",
+            "genre": "accion",
+            "type": "pelicula"
+        }
+    ]
+}
