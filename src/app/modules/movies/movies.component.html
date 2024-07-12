@@ -1,2 +1,11 @@
-<p>movies works!</p>
-<app-item></app-item>
+<div class="section--generic">
+    <h1>Películas</h1>
+
+    <div class="section--generic__player--zone">
+        <ul class="player--list">
+            <li *ngFor="let movie of movieList">
+                <app-card [item]="movie"></app-card>
+            </li>
+        </ul>
+    </div>
+</div>

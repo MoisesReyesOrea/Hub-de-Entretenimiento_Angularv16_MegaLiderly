@@ -1,9 +1,9 @@
 <div class="navbar">
-    <a routerLink="/home">Inicio</a>
-    <a routerLink="/movies">Películas</a>
-    <a routerLink="/series">Series</a>
-    <a routerLink="/sports">Deportes</a>
-    <a routerLink="/genres">Géneros</a>
-    <a routerLink="/favorites">Favoritos</a>
-    <a id="logOut" routerLink="/login">Cerrar sesión</a>
+    <a [routerLink]="['/','home']">Inicio</a>
+    <a [routerLink]="['/','home','movies']">Películas</a>
+    <a [routerLink]="['/','home','series']">Series</a>
+    <a [routerLink]="['/','home','sports']">Deportes</a>
+    <a [routerLink]="['/','home','favorites']">Favoritos</a>
+    <a [routerLink]="['/','home','historial']">Historial</a>
+    <a id="logOut" [routerLink]="['/','auth','login']">Cerrar sesión</a>
 </div>

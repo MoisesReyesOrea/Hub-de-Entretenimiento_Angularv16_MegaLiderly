@@ -3,52 +3,62 @@
         {
             "_id": 1,
             "name": "La Casa del Dragón",
-            "temporadas": 2,
-            "episodies": 10,
+            "seasons": 2,
+            "episodes": 20,
             "year": 2022,
-            "director": "Clare Kilner; Geeta Patel; Miguel Sapochnik; Greg Yaitanes",
+            "director": "Clare Kilner; Geeta Patel; Miguel Sapochnik",
             "genre": "drama",
-            "type": "pelicula"
+            "type": "pelicula",
+            "description": "La historia de la familia Targaryen, 200 años antes de los eventos que tuvieron lugar en Game of Thrones.",
+            "img": "./../../assets/images_app/casa-del-dragon.jpg"
         },
         {
-            "_id": 1,
+            "_id": 2,
             "name": "The Last of Us",
-            "temporadas": 2,
-            "episodies": 10,
+            "seasons": 1,
+            "episodes": 9,
             "year": 2023,
             "director": "Bruce Straley; Neil Druckmann",
             "genre": "drama",
-            "type": "pelicula"
+            "type": "pelicula",
+            "description": "Joel y Ellie, dos personas conectadas por la brutalidad del mundo en el que viven, se ven obligados a enfrentarse a criaturas y asesinos despiadados, mientras viajan a través de un Estados Unidos posapocalíptico.",
+            "img": "./../../assets/images_app/The-last-of-us.jpg"
         },
         {
-            "_id": 1,
-            "name": "La Casa del Dragón",
-            "temporadas": 2,
-            "episodies": 10,
-            "year": 2022,
-            "director": "Clare Kilner; Geeta Patel; Miguel Sapochnik; Greg Yaitanes",
-            "genre": "drama",
-            "type": "pelicula"
+            "_id": 3,
+            "name": "Juego de tronos",
+            "seasons": 8,
+            "episodes": 73,
+            "year": 2011,
+            "director": "Mark Mylod, Alex Graves, David Nutter",
+            "genre": "aventura",
+            "type": "pelicula",
+            "description": "La historia se desarrolla en un mundo ficticio de carácter medieval donde hay Siete Reinos. Hay tres líneas argumentales principales: la crónica de la guerra civil dinástica por el control de Poniente entre varias familias nobles que aspiran al Trono de Hierro; la creciente amenaza de los otros, seres desconocidos que viven al otro lado de un inmenso muro de hielo que protege el Norte de Poniente; y el viaje de Daenerys Targaryen, la hija exiliada del rey que fue asesinado en una guerra civil anterior, y que pretende regresar a Poniente para reclamar sus derechos dinásticos.",
+            "img": "./../../assets/images_app/juego-de-tronos.png"
         },
         {
-            "_id": 1,
-            "name": "La Casa del Dragón",
-            "temporadas": 2,
-            "episodies": 10,
-            "year": 2022,
-            "director": "Clare Kilner; Geeta Patel; Miguel Sapochnik; Greg Yaitanes",
+            "_id": 4,
+            "name": "Euphoria",
+            "seasons": 2,
+            "episodes": 16,
+            "year": 2019,
+            "director": "Drake, Ron Leshem, Kevin Turen,",
             "genre": "drama",
-            "type": "pelicula"
+            "type": "serie",
+            "description": "Un grupo de estudiantes de secundaria navega entre drogas, relaciones sexuales, traumas, redes sociales, amor y amistad.",
+            "img": "./../../assets/images_app/Euphoria.jpg"
         },
         {
-            "_id": 1,
-            "name": "La Casa del Dragón",
-            "temporadas": 2,
-            "episodies": 10,
-            "year": 2022,
-            "director": "Clare Kilner; Geeta Patel; Miguel Sapochnik; Greg Yaitanes",
-            "genre": "drama",
-            "type": "pelicula"
+            "_id": 5,
+            "name": "Mr. Robot",
+            "seasons": 4,
+            "episodes": 45,
+            "year": 2015,
+            "director": "Sam Esmail",
+            "genre": "suspenso",
+            "type": "serie",
+            "description": "Elliot Alderson, un brillante programador con problemas de ansiedad social, trabaja como ingeniero de ciberseguridad de día y como justiciero de noche. Su vida da un giro cuando unos ciberterroristas lo reclutan.",
+            "img": "./../../assets/images_app/Mr-Robot.jpg"
         }
     ]
 }

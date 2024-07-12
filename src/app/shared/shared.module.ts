@@ -4,19 +4,24 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { CardComponent } from './components/card/card.component';
 
 import { MatIconModule } from '@angular/material/icon';
+import { SectionGenericComponent } from './components/section-generic/section-generic.component';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
     NavbarComponent,
-    CardComponent
+    CardComponent,
+    SectionGenericComponent,
   ],
   imports: [
     CommonModule,
-    MatIconModule
+    MatIconModule,
+    RouterModule
   ],
   exports: [
     NavbarComponent,
-    CardComponent
+    CardComponent,
+    SectionGenericComponent
   ]
 })
 export class SharedModule { }
