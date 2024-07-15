@@ -20,11 +20,21 @@ GIT: Debe tener Instalado GIT
 
 ## 4. Explicación
 ![ejecucion](https://github.com/user-attachments/assets/1fb79272-7f6f-4588-aa74-1d883f188433)
+
+Para correr la aplicación se ejecuta el comando 'npm start', esta imágen muestra el server en ejecucion para el funcionamiento de la aplicación.
+
+
 ![inicio-de-sesion](https://github.com/user-attachments/assets/e65a4703-e9eb-452d-bf50-f32066e4c494)
+
+Página de inicio de sesión, los campos de ingreso de datos cuentan con validaciones que deberán ser cumplidas para habilitar el boton de inicio de sesión y así entrar a la aplicación
+
 ![home-page](https://github.com/user-attachments/assets/c8a196d0-9597-41f1-9645-adbf2dda6d89)
+
+Página de inicio de la aplicación aquí se muestran algunas recomendaciónes populares, en la parte de abajo esta la barra de navegación para visitar diferentes páginas y ver distinto contenido.
+
 ![movies-page](https://github.com/user-attachments/assets/4e367769-3835-4c39-b5fc-46e22e32f06c)
 
-
+Pagina de peliculas, aqui se muestran todas las peliculas disponibles en el momento, hay otras páginas similares con contenido distinto como series, eventos deportivos, historial de visitas y favoritos.
 
 ## 5. Proceso de desarrollo
 
