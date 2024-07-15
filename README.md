@@ -19,6 +19,7 @@ GIT: Debe tener Instalado GIT
 -- Abre algún navegador y ve a la dirección `http://localhost:4200/` la aplicación se ejecutará en ese enlace.  
 
 ## 4. Explicación
+https://github.com/MoisesReyesOrea/Hub-de-entretenimiento--Programa-MegaLiderly/blob/main/img%20description/ejecucion.png
 
 
 
