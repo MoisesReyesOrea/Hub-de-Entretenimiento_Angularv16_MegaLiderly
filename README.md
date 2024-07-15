@@ -20,8 +20,8 @@ GIT: Debe tener Instalado GIT
 
 ## 4. Explicación
 ![ejecucion](https://github.com/user-attachments/assets/1fb79272-7f6f-4588-aa74-1d883f188433)
-![home-page](https://github.com/user-attachments/assets/c8a196d0-9597-41f1-9645-adbf2dda6d89)
 ![inicio-de-sesion](https://github.com/user-attachments/assets/e65a4703-e9eb-452d-bf50-f32066e4c494)
+![home-page](https://github.com/user-attachments/assets/c8a196d0-9597-41f1-9645-adbf2dda6d89)
 ![movies-page](https://github.com/user-attachments/assets/4e367769-3835-4c39-b5fc-46e22e32f06c)
 
 
