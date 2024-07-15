@@ -1,5 +1,6 @@
 import { Component, Input } from '@angular/core';
 import { ItemModel } from 'src/app/core/models/item.model';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-card',
@@ -17,5 +18,15 @@ export class CardComponent {
     type: "",
     description: "",
     img: "",
+    favorite: false,
+    viewed:  false
+}
+
+constructor(private router: Router){}
+goto($event: any): void {
+  this.router.navigate (['/','info'])
+}
+hide($event: any): void{
+  //Alert
 }
 }

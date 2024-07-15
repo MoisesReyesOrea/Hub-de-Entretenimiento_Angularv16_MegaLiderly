@@ -11,4 +11,6 @@ export interface ItemModel {
     type: string;
     description: string;
     img: string;
+    favorite: true | false;
+    viewed: true | false;
 }

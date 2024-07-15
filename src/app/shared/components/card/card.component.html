@@ -1,8 +1,7 @@
 <!-- <mat-icon>settings</mat-icon> -->
 
-
 <!-- card small -->
-  <div class="card" style="width: 18rem;">
+  <div class="card" style="width: 21rem;">
     <img [src]="item.img" class="card-img-top, img-size" alt="...">
     <div class="card-body">
       <h2 class="card-title">{{item.name}}</h2>
@@ -13,27 +12,10 @@
       <h4 *ngIf="item.episodes"> Episodios: {{item.episodes}}</h4>
       <h4 *ngIf="item.genre">Género: {{item.genre}}</h4>
       <h4 *ngIf="item.tournament">Torneo: {{item.tournament}}</h4>
-      <p class="card-text">{{item.description}}</p>
+      <p class="card-description">{{item.description}}</p>
       <div class="card-buttons">
-      <a href="#" class="btn btn-secondary">Ver</a>
-      <a href="#" class="btn btn-primary">Ocultar</a>
+      <a class="btn btn-primary" (click)="goto($event)">Ver</a>
+      <a class="btn btn-secondary" (click)="hide($event)">Ocultar</a>
       </div>
     </div>
   </div>
-
-  
-<!-- Card big -->
-  <!-- <div class="card mb-4" style="max-width: 4h4h40px;">
-    <div class="row g-0">
-      <div class="col-md-4h4">
-        <img src="./../../../../assets/images app/DeedPool4.jpg" class="img-fluid rounded-start" alt="...">
-      </div>
-      <div class="col-md-8">
-        <div class="card-body">
-          <h4 class="card-title">Card title</h4>
-          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          <p class="card-text"><small class="text-body-secondary">Last updated 4 mins ago</small></p>
-        </div>
-      </div>
-    </div>
-  </div> -->

@@ -8,7 +8,9 @@
         "genre": "accion",
         "type": "pelicula",
         "description": "Lobezno se recupera de sus heridas cuando se cruza con el bocazas, Deadpool, que ha viajado en el tiempo para curarlo con la esperanza de hacerse amigos y formar un equipo para acabar con un enemigo común.",
-        "img": "./../../assets/images_app/DeedPool3.jpg"
+        "img": "./../../assets/images_app/DeedPool3.jpg",
+        "favorite": false,
+        "viewed":  false
     },
     {
         "_id": 2,
@@ -18,7 +20,9 @@
         "genre": "accion",
         "type": "pelicula",
         "description": "Jake Sully y Ney'tiri han formado una familia y hacen todo lo posible por permanecer juntos. Sin embargo, deben abandonar su hogar y explorar las regiones de Pandora cuando una antigua amenaza reaparece.",
-        "img": "./../../assets/images_app/Avatar2.jpg"
+        "img": "./../../assets/images_app/Avatar2.jpg",
+        "favorite": false,
+        "viewed":  false
     },{
         "_id": 3,
         "name": "Oppenheimer",
@@ -27,7 +31,9 @@
         "genre": "suspenso",
         "type": "pelicula",
         "description": "Durante la Segunda Guerra Mundial, el teniente general Leslie Groves designa al físico J. Robert Oppenheimer para un grupo de trabajo que está desarrollando el Proyecto Manhattan, cuyo objetivo consiste en fabricar la primera bomba atómica.",
-        "img": "./../../assets/images_app/oppenheimer.jpg"
+        "img": "./../../assets/images_app/oppenheimer.jpg",
+        "favorite": false,
+        "viewed":  false
     },{
         "_id": 4,
         "name": "El Hobbit",
@@ -36,7 +42,9 @@
         "genre": "fantasía",
         "type": "pelicula",
         "description": "Mientras Smaug lanza su ira ardiente contra los ciudadanos de la Ciudad del Lago, Sauron envía legiones de orcos a atacar la Montaña Solitaria. La Tierra está en peligro cuando hombres, enanos y elfos deben decidir si se unen o son destruidos.",
-        "img": "./../../assets/images_app/elHobbit.jpg"
+        "img": "./../../assets/images_app/elHobbit.jpg",
+        "favorite": false,
+        "viewed":  false
     },{
         "_id": 5,
         "name": "Los Dioses Deben Estar Locos",
@@ -45,7 +53,9 @@
         "genre": "Comedia",
         "type": "pelicula",
         "description": "Cuando una botella cae de un avión causa confusión entre una tribu africana porque creen que vino de los dioses.",
-        "img": "./../../assets/images_app/LosDiosesDebenEstarLocos.jpg"
+        "img": "./../../assets/images_app/LosDiosesDebenEstarLocos.jpg",
+        "favorite": false,
+        "viewed":  false
     }
     ]
 }

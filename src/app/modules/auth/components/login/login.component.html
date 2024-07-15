@@ -6,14 +6,19 @@
 
     <div class="login-form">
         <h1>¡Bienvenido!</h1>
-        <label for="e-mail">Correo electrónico</label>
-        <input type="text" id="e-mail">
-        <label for="password">Contraseña</label>
-        <input type="password" id="password">
-        <button type="button" id="login-button" >Iniciar sesión</button>
+        <form (submit)="sendLogin()" class="form-login" [formGroup]="formLogin">
+            <label for="e-mail">Correo electrónico</label>
+            <input type="text" id="e-mail" formControlName="email">
+            <label for="password">Contraseña</label>
+            <input type="password" id="password" formControlName="password">
+            <button id="login-button" [routerLink]="['/']" [disabled]="formLogin.invalid">Iniciar sesión</button>
+        </form>
+
+        <form action=""></form>
+
         <div class="login-form-footer">
             <a>¿Olvidaste tu contraseña?</a>
-            <button>Suscribirse</button>
+            <button [routerLink]="['/','auth','signup']">Suscribirse</button>
         </div>
     </div>
 

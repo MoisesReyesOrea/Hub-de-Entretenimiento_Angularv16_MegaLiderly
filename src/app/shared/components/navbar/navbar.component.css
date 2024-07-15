@@ -1,15 +1,13 @@
-.navbar{
+ .navbar{
     background-color: rgb(25, 206, 146);
     position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
-    height: 65px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 a{
     margin: 0px 40px;
     font-size: 20px;
@@ -19,3 +17,19 @@ a{
 a:hover{
     font-weight: bold;
 }
+li{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin: 10px;
+}
+.container-fluid {
+    display: flex;
+    justify-content: center;
+}
+
+/* Ajuste para el menú desplegable */
+.dropdown-menu-bottom {
+    margin-top: -1px;
+}
+  

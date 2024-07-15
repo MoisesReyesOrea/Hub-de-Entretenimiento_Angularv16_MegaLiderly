@@ -30,10 +30,10 @@
             "seasons": 8,
             "episodes": 73,
             "year": 2011,
-            "director": "Mark Mylod, Alex Graves, David Nutter",
+            "director": "Mark Mylod, Alex Graves",
             "genre": "aventura",
             "type": "pelicula",
-            "description": "La historia se desarrolla en un mundo ficticio de carácter medieval donde hay Siete Reinos. Hay tres líneas argumentales principales: la crónica de la guerra civil dinástica por el control de Poniente entre varias familias nobles que aspiran al Trono de Hierro; la creciente amenaza de los otros, seres desconocidos que viven al otro lado de un inmenso muro de hielo que protege el Norte de Poniente; y el viaje de Daenerys Targaryen, la hija exiliada del rey que fue asesinado en una guerra civil anterior, y que pretende regresar a Poniente para reclamar sus derechos dinásticos.",
+            "description": "La historia se desarrolla en un mundo ficticio de carácter medieval donde hay Siete Reinos. Hay tres líneas argumentales: la crónica de la guerra por el control de Poniente entre varias familias nobles que aspiran al Trono de Hierro; la creciente amenaza de los otros; y el viaje de Daenerys Targaryen",
             "img": "./../../assets/images_app/juego-de-tronos.png"
         },
         {
