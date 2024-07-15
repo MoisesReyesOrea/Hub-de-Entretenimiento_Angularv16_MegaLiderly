@@ -13,10 +13,10 @@ GIT: Debe tener Instalado GIT
 
 ## 3. ¿Cómo ejecutar la aplicación?
 
--- Cloná el repositorio haciendo git clone https://github.com/MoisesReyesOrea/Hub-de-entretenimiento--Programa-MegaLiderly.git
--- Instalá de los paquetes y módulos requeridos: npm install
--- Abre cualquier terminal en la direccion dentro de la carpeta del proyecto y ejecuta el comando 'npm start' o 'ng serve' o bien hacerlo desde un editor de código.
--- Abre algún navegador y ve a la dirección `http://localhost:4200/` la aplicación se ejecutará en ese enlace.
+-- Cloná el repositorio haciendo git clone https://github.com/MoisesReyesOrea/Hub-de-entretenimiento--Programa-MegaLiderly.git  
+-- Instalá de los paquetes y módulos requeridos: npm install  
+-- Abre cualquier terminal en la direccion dentro de la carpeta del proyecto y ejecuta el comando 'npm start' o 'ng serve' o bien hacerlo desde un editor de código.  
+-- Abre algún navegador y ve a la dirección `http://localhost:4200/` la aplicación se ejecutará en ese enlace.  
 
 ## 4. Explicación
 
@@ -32,13 +32,13 @@ Diseñado para la creación eficiente de aplicaciones web dinámicas y de una so
 
 
 ## 6. Tabla con Sprint Review
-¿Qué salio bien?
+¿Qué salio bien?  
 La navegación entre componentes es fluida y dinámica, así como la comunicación entre ellos.
 
 ¿Qué puedo hacer diferente?
-Se pudieran crear servicios, organizar mejor los componentes y modulos para reutilizar de una mejor manera el código, ademas de que se da una mejor eficiencia y facilidad de escalamiento a la aplicación.
+Se pudieran crear servicios, organizar mejor los componentes y modulos para reutilizar de una mejor manera el código, ademas de que se da una mejor eficiencia y facilidad de escalamiento a la aplicación.  
 
-¿Qué no salio bien ?
+¿Qué no salio bien ?  
 El manejo de listas como: favoriteList, viewedList, popularList que son listas dinamicas que van agregando o eliminando elementos durante la ejecución y actualizar eso de manera reactiva no salio como esperaba.
 
 
