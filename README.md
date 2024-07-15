@@ -7,9 +7,9 @@ Este repositorio cuenta con una app web realizada con [Angular CLI](https://gith
 El objetivo es crear una aplicación full stack siendo este proyecto la parte del frontend que sera conectada a un backend para la visualizacion de archivos multimedia.
 
 ## 2. Requerimientos técnicos:
-NODE: Se debe instalar NODE JS v18 en el sistema operativo 
-ANGULAR/CLI: Para poder manipular el proyecto con la interfaz de Angular v16
-GIT: Debe tener Instalado GIT
+NODE: Se debe instalar NODE JS v18 en el sistema operativo  
+ANGULAR/CLI: Para poder manipular el proyecto con la interfaz de Angular v16  
+GIT: Debe tener Instalado GIT  
 
 ## 3. ¿Cómo ejecutar la aplicación?
 
