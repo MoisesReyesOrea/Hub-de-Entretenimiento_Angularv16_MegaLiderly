@@ -2,6 +2,7 @@ import { Component, Input, Output } from '@angular/core';
 import { Router } from '@angular/router';
 import { ItemModel } from 'src/app/core/models/item.model';
 import { FavoriteServiceService } from 'src/app/shared/services/favorite-service.service';
+import { HistoryService } from 'src/app/shared/services/history.service';
 import { ItemServiceService } from 'src/app/shared/services/item-service.service';
 
 @Component({
@@ -28,15 +29,16 @@ export class ItemInfoPageComponent {
     hide: false
 }
 
-constructor(private favoriteItem: FavoriteServiceService,private itemService: ItemServiceService, private router: Router){}
+constructor(private historyItem: HistoryService ,private favoriteItem: FavoriteServiceService,private itemService: ItemServiceService, private router: Router){}
 
 ngOnInit() {
   this.item = this.itemService.getSelectedItem();
 }
 
 goto($event: any): void {
-  this.router.navigate (['/','play'])
   console.log("visto");
+  this.historyItem.setSelectedItem(this.item);
+  this.router.navigate (['/','play'])
   
 }
 hide($event: any): void{

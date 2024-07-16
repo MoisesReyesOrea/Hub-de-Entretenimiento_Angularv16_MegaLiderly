@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { ItemModel } from 'src/app/core/models/item.model';
 import { FavoriteServiceService } from 'src/app/shared/services/favorite-service.service';
-import { ItemServiceService } from 'src/app/shared/services/item-service.service';
 
 @Component({
   selector: 'app-favorites',
@@ -32,18 +31,14 @@ export class FavoritesComponent {
 constructor(private itemList: FavoriteServiceService){}
 
 ngOnInit() {
-
-  this.addFavorites();
+  this.favoriteList = this.itemList.getSelectedItemList();
+  console.log(this.favoriteList);
 }
 
 addFavorites(){
-  this.favoriteList = this.itemList.getSelectedItemList();
-  console.log(this.favoriteList);
-  
   // this.favoriteList.push(this.item);
   // console.log("añadido: " + this.item);
   // console.log(this.favoriteList);
-  
 }
 
 }

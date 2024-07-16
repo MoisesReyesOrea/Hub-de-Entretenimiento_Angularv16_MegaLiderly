@@ -6,15 +6,13 @@ import { ItemModel } from 'src/app/core/models/item.model';
 })
 export class FavoriteServiceService {
 
-  private favoriteItem: any;
   private favoriteList: Array<ItemModel> = [];
 
   setSelectedItem(itemFavorite: any) {
     // this.favoriteItem = itemFavorite;
     // this.addFavorite();
     this.favoriteList.push(itemFavorite)
-    console.log(this.favoriteList);
-    
+    // console.log(this.favoriteList);
   }
 
   getSelectedItemList() {
@@ -22,8 +20,5 @@ export class FavoriteServiceService {
   }
 
   constructor() { }
-
-  // addFavorite(){
-  //   this.favoriteList.push(this.favoriteItem);
-  // }
 }
+
