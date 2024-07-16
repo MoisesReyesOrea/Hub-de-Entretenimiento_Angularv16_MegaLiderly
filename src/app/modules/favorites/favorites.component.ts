@@ -1,4 +1,7 @@
 import { Component } from '@angular/core';
+import { ItemModel } from 'src/app/core/models/item.model';
+import { FavoriteServiceService } from 'src/app/shared/services/favorite-service.service';
+import { ItemServiceService } from 'src/app/shared/services/item-service.service';
 
 @Component({
   selector: 'app-favorites',
@@ -6,5 +9,41 @@ import { Component } from '@angular/core';
   styleUrls: ['./favorites.component.css']
 })
 export class FavoritesComponent {
+
+  favoriteList: Array<ItemModel> = [];
+  item: ItemModel = {
+    _id: 0,
+    name: "",
+    seasons: 0,
+    episodes: 0,
+    tournament: "",
+    year: 0,
+    date: "",
+    director: "",
+    genre: "",
+    type: "",
+    description: "",
+    img: "",
+    favorite: false,
+    viewed:  false,
+    hide: false
+}
+
+constructor(private itemList: FavoriteServiceService){}
+
+ngOnInit() {
+
+  this.addFavorites();
+}
+
+addFavorites(){
+  this.favoriteList = this.itemList.getSelectedItemList();
+  console.log(this.favoriteList);
+  
+  // this.favoriteList.push(this.item);
+  // console.log("añadido: " + this.item);
+  // console.log(this.favoriteList);
+  
+}
 
 }

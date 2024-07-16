@@ -4,7 +4,7 @@
     min-height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: start;
+    align-items: flex-start;
  }
 .card{
     display:grid;
@@ -38,22 +38,27 @@
     height: 250px;
 }
 .card-buttons{
-    display:grid;
-    grid-template-columns: 50% 50%;
-    place-items: center;
+    display: flex;
+    justify-content: center;
     align-items: center;
     margin-top: 0px;
+    width: 450px;
 }
 .btn{
-    margin: 10px;
+    margin: 10px 20px;
     width: 80px;
     height: 35px;
 
 }
+.bton-favorites{
+    width: 160px;
+    margin: 10px 20px;
+ }
 .card-description{
     height: 135px;
 }
-/* Modal card */
+
+/* Modal card alert*/
 .modal-title{
     font-size: 30px;
 }

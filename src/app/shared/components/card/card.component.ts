@@ -1,6 +1,7 @@
-import { Component, Input } from '@angular/core';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
 import { ItemModel } from 'src/app/core/models/item.model';
 import { Router } from '@angular/router';
+import { ItemServiceService } from '../../services/item-service.service';
 
 @Component({
   selector: 'app-card',
@@ -19,14 +20,28 @@ export class CardComponent {
     description: "",
     img: "",
     favorite: false,
-    viewed:  false
+    viewed:  false,
+    hide: false
 }
+// @Output() showInfo = new EventEmitter<any>();
 
-constructor(private router: Router){}
-goto($event: any): void {
+// onShowInfo() {
+//   console.log(this.item.name);
+//   this.itemService.setSelectedItem(this.item);
+//   this.router.navigate (['/','info'])
+// }
+
+constructor(private itemService: ItemServiceService, private router: Router){} // inyeccion de servicios
+
+goto(){
+  // this.router.navigate (['/','info'])
+  console.log(this.item.name);
+  this.itemService.setSelectedItem(this.item);
   this.router.navigate (['/','info'])
 }
 hide($event: any): void{
   //Alert
+  console.log("ocultado");
+  console.log(this.item.name);
 }
 }

@@ -25,7 +25,8 @@
           <div class="card-buttons">
           <a  class="btn btn-primary" (click)="goto($event)" >Ver</a>
           <a  class="btn btn-secondary"  data-bs-toggle="modal" data-bs-target="#alert">Ocultar</a>
-          <!-- (click)="hide($event)" -->
+          <a  class="btn btn-secondary bton-favorites" (click)="addFavorites()">Añadir a favoritos</a>
+          
           </div>
         
       </div>
@@ -49,7 +50,7 @@
         <p>¿Deseas ocultar?</p>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-primary" >Ocultar</button>
+        <button type="button" class="btn btn-primary" (click)="hide($event)">Ocultar</button>
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
       </div>
     </div>

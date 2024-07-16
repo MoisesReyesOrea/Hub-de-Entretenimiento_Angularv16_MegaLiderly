@@ -10,10 +10,19 @@ import { ItemModel } from 'src/app/core/models/item.model';
 export class MoviesComponent {
   movieList: Array<ItemModel> = [];
 
-  constructor(){}
+  constructor( ){}
 
   ngOnInit(){
     const {data}: any = (dataRaw as any).default;
     this.movieList = data;
   }
+
+  hideItem(item: any){
+    this.movieList.splice( item.name, 1)
+  }
+
+  onShowInfo(movie: any) {
+    console.log(movie);
+  }
+ 
 }

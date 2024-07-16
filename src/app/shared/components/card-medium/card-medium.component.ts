@@ -1,6 +1,7 @@
 import { Component, Input } from '@angular/core';
 import { Router } from '@angular/router';
 import { ItemModel } from 'src/app/core/models/item.model';
+import { ItemServiceService } from '../../services/item-service.service';
 
 @Component({
   selector: 'app-card-medium',
@@ -22,15 +23,21 @@ export class CardMediumComponent {
     description: "",
     img: "",
     favorite: false,
-    viewed:  false
+    viewed:  false,
+    hide: false
 }
 
-constructor(private router: Router){}
-goto($event: any): void {
+constructor(private itemService: ItemServiceService, private router: Router){} // inyeccion de servicios
+
+goto(){
+  // this.router.navigate (['/','info'])
+  console.log(this.item.name);
+  this.itemService.setSelectedItem(this.item);
   this.router.navigate (['/','info'])
 }
 hide($event: any): void{
   //Alert
-  alert("ocultar")
+  console.log("ocultado");
+  console.log(this.item.name);
 }
 }

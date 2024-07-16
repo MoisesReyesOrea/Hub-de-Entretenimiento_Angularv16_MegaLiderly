@@ -10,7 +10,8 @@
             "genre": "drama",
             "type": "pelicula",
             "description": "La historia de la familia Targaryen, 200 años antes de los eventos que tuvieron lugar en Game of Thrones.",
-            "img": "./../../assets/images_app/casa-del-dragon.jpg"
+            "img": "./../../assets/images_app/casa-del-dragon.jpg",
+            "hide": false
         },
         {
             "_id": 2,
@@ -22,7 +23,8 @@
             "genre": "drama",
             "type": "pelicula",
             "description": "Joel y Ellie, dos personas conectadas por la brutalidad del mundo en el que viven, se ven obligados a enfrentarse a criaturas y asesinos despiadados, mientras viajan a través de un Estados Unidos posapocalíptico.",
-            "img": "./../../assets/images_app/The-last-of-us.jpg"
+            "img": "./../../assets/images_app/The-last-of-us.jpg",
+            "hide": false
         },
         {
             "_id": 3,
@@ -34,7 +36,8 @@
             "genre": "aventura",
             "type": "pelicula",
             "description": "La historia se desarrolla en un mundo ficticio de carácter medieval donde hay Siete Reinos. Hay tres líneas argumentales: la crónica de la guerra por el control de Poniente entre varias familias nobles que aspiran al Trono de Hierro; la creciente amenaza de los otros; y el viaje de Daenerys Targaryen",
-            "img": "./../../assets/images_app/juego-de-tronos.png"
+            "img": "./../../assets/images_app/juego-de-tronos.png",
+            "hide": true
         },
         {
             "_id": 4,
@@ -46,7 +49,8 @@
             "genre": "drama",
             "type": "serie",
             "description": "Un grupo de estudiantes de secundaria navega entre drogas, relaciones sexuales, traumas, redes sociales, amor y amistad.",
-            "img": "./../../assets/images_app/Euphoria.jpg"
+            "img": "./../../assets/images_app/Euphoria.jpg",
+            "hide": false
         },
         {
             "_id": 5,
@@ -58,7 +62,8 @@
             "genre": "suspenso",
             "type": "serie",
             "description": "Elliot Alderson, un brillante programador con problemas de ansiedad social, trabaja como ingeniero de ciberseguridad de día y como justiciero de noche. Su vida da un giro cuando unos ciberterroristas lo reclutan.",
-            "img": "./../../assets/images_app/Mr-Robot.jpg"
+            "img": "./../../assets/images_app/Mr-Robot.jpg",
+            "hide": false
         }
     ]
 }
