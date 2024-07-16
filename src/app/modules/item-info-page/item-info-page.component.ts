@@ -1,8 +1,6 @@
 import { Component, Input, Output } from '@angular/core';
 import { Router } from '@angular/router';
 import { ItemModel } from 'src/app/core/models/item.model';
-import { FavoriteServiceService } from 'src/app/shared/services/favorite-service.service';
-import { HistoryService } from 'src/app/shared/services/history.service';
 import { ItemServiceService } from 'src/app/shared/services/item-service.service';
 
 @Component({
@@ -11,7 +9,8 @@ import { ItemServiceService } from 'src/app/shared/services/item-service.service
   styleUrls: ['./item-info-page.component.css']
 })
 export class ItemInfoPageComponent {
-  @Input() item: ItemModel = {
+  // @Input() 
+  item: ItemModel = {
     _id: 0,
     name: "",
     seasons: 0,
@@ -29,29 +28,29 @@ export class ItemInfoPageComponent {
     hide: false
 }
 
-constructor(private historyItem: HistoryService ,private favoriteItem: FavoriteServiceService,private itemService: ItemServiceService, private router: Router){}
+constructor(private itemService: ItemServiceService, private router: Router){}
 
 ngOnInit() {
-  this.item = this.itemService.getSelectedItem();
+   this.item = this.itemService.getSelectedItem();
 }
 
-goto($event: any): void {
-  console.log("visto");
-  this.historyItem.setSelectedItem(this.item);
-  this.router.navigate (['/','play'])
+// goto($event: any): void {
+  // console.log("visto");
+  // Agregar al historial de visitas
+  // this.historyItem.setSelectedItem(this.item);
+  // this.router.navigate (['/','play'])
   
-}
-hide($event: any): void{
-  //Alert
-  console.log("ocultado");
+// }
+// hide($event: any): void{
+//   //Alert
+//   console.log("ocultado");
   
   
-}
+// }
 
-addFavorites(){
-  console.log(this.item.name);
-  this.favoriteItem.setSelectedItem(this.item);
-  // console.log(this.favoriteItem);
+// addFavorites(){
+//   console.log(this.item.name);
+//   this.favoriteItem.setSelectedItem(this.item);
   
-}
+// }
 }

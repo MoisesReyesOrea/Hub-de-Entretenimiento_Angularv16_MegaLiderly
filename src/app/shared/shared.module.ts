@@ -9,6 +9,8 @@ import { RouterModule } from '@angular/router';
 import { CarouselComponent } from './components/carousel/carousel.component';
 import { CarouselHeaderComponent } from './components/carousel-header/carousel-header.component';
 import { CardMediumComponent } from './components/card-medium/card-medium.component';
+import { PopularComponent } from './components/popular/popular.component';
+import { CardBigComponent } from './components/card-big/card-big.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +20,8 @@ import { CardMediumComponent } from './components/card-medium/card-medium.compon
     CarouselComponent,
     CarouselHeaderComponent,
     CardMediumComponent,
+    PopularComponent,
+    CardBigComponent,
   ],
   imports: [
     CommonModule,
@@ -31,6 +35,7 @@ import { CardMediumComponent } from './components/card-medium/card-medium.compon
     CarouselComponent,
     CarouselHeaderComponent,
     CardMediumComponent,
+    CardBigComponent,
   ]
 })
 export class SharedModule { }

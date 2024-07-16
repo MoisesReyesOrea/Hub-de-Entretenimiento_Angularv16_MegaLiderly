@@ -1,6 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { MoviesComponent } from './movies.component';
+import { CardComponent } from 'src/app/shared/components/card/card.component';
 
 describe('MoviesComponent', () => {
   let component: MoviesComponent;
@@ -8,7 +9,13 @@ describe('MoviesComponent', () => {
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [MoviesComponent]
+      imports: [
+        
+      ],
+      declarations: [
+        MoviesComponent,
+        CardComponent
+      ]
     });
     fixture = TestBed.createComponent(MoviesComponent);
     component = fixture.componentInstance;

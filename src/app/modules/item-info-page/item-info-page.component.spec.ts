@@ -1,6 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { ItemInfoPageComponent } from './item-info-page.component';
+import { CardBigComponent } from 'src/app/shared/components/card-big/card-big.component';
 
 describe('ItemInfoPageComponent', () => {
   let component: ItemInfoPageComponent;
@@ -8,7 +9,9 @@ describe('ItemInfoPageComponent', () => {
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [ItemInfoPageComponent]
+      declarations: [ItemInfoPageComponent,
+        CardBigComponent
+      ]
     });
     fixture = TestBed.createComponent(ItemInfoPageComponent);
     component = fixture.componentInstance;
