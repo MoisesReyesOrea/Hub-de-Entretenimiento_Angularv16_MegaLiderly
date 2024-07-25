@@ -37,9 +37,16 @@ Página de inicio de la aplicación aquí se muestran algunas recomendaciónes p
 Pagina de peliculas, aqui se muestran todas las peliculas disponibles en el momento, hay otras páginas similares con contenido distinto como series, eventos deportivos, historial de visitas y favoritos.
 
 ### Pruebas Unitarias
-
 Como parte de la calidad del software se realizan los testing correspondientes a las funciones más importantes de la aplicación.
 
+![Captura de pantalla 2024-07-25 121505](https://github.com/user-attachments/assets/a8fb64fe-e779-41d2-8b2c-128181423999)
+
+![Captura de pantalla 2024-07-25 121528](https://github.com/user-attachments/assets/e3158d34-f226-47bc-99bd-71f768c7bd8f)
+
+Codigo para el testing de la sección 'LOGIN' de la aplicacion, se ejecutan pruebas que se encargan de verificar las validaciones de los datos ingresados en el formulario. 
+
+#### Reporte Code Coverage:
+![Captura de pantalla 2024-07-25 121104](https://github.com/user-attachments/assets/762c4499-7c74-4fb0-88b9-10e49c4915ae)
 
 ## 5. Proceso de desarrollo
 
