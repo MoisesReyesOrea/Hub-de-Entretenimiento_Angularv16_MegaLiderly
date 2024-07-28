@@ -45,7 +45,7 @@ describe('LoginComponent Test by Moisés', () => {
   });
 
 
-  it('Debe retornar (True) en invalid', () => {
+  it('Debe retornar (false) en invalid', () => {
     // Arrange
     const mockCredentials = {
       email: "test@test.com",

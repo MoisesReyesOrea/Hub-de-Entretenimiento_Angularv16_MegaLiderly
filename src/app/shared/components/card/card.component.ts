@@ -34,7 +34,6 @@ export class CardComponent {
 constructor(private itemService: ItemServiceService, private router: Router){} // inyeccion de servicios
 
 goto(){
-  // this.router.navigate (['/','info'])
   console.log(this.item.name);
   this.itemService.setSelectedItem(this.item);
   this.router.navigate (['/','info'])
@@ -42,6 +41,6 @@ goto(){
 hide($event: any): void{
   //Alert
   console.log("ocultado");
-  console.log(this.item.name);
+  // console.log(this.item.name);
 }
 }
