@@ -1,7 +1,7 @@
 # Hub De Entretenimiento Mega - Liderly
 
 ## 1. Descripción
-Este repositorio cuenta con una app web realizada con [Angular CLI](https://github.com/angular/angular-cli) version 16.2.14. Se trata de una aplicacion frontend para la visualizacion de peliculas, series, deporte y más en formato de streaming.
+Este repositorio cuenta con una app web realizada con [Angular CLI](https://github.com/angular/angular-cli) version 16.2.14. Se trata de una aplicacion frontend para la visualizacion de peliculas, series, deportes y más en formato de streaming.
 
 ### Objetivo
 El objetivo es crear una aplicación full stack siendo este proyecto la parte del frontend que sera conectada a un backend para la visualizacion de archivos multimedia.
@@ -13,8 +13,8 @@ GIT: Debe tener Instalado GIT
 
 ## 3. ¿Cómo ejecutar la aplicación?
 
--- Cloná el repositorio haciendo git clone https://github.com/MoisesReyesOrea/Hub-de-entretenimiento--Programa-MegaLiderly.git  
--- Instalá de los paquetes y módulos requeridos: npm install  
+-- Clona el repositorio haciendo git clone https://github.com/MoisesReyesOrea/Hub-de-entretenimiento--Programa-MegaLiderly.git  
+-- Instala de los paquetes y módulos requeridos: npm install  
 -- Abre cualquier terminal en la direccion dentro de la carpeta del proyecto y ejecuta el comando 'npm start' o 'ng serve' o bien hacerlo desde un editor de código.  
 -- Abre algún navegador y ve a la dirección `http://localhost:4200/` la aplicación se ejecutará en ese enlace.  
 
