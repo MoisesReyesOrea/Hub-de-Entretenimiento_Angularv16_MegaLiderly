@@ -1,7 +1,7 @@
 # Hub De Entretenimiento Mega - Liderly
 
 ## 1. Descripción
-Este repositorio cuenta con una app web realizada con [Angular CLI](https://github.com/angular/angular-cli) version 16.2.14. Se trata de una aplicacion frontend para la visualizacion de peliculas, series, deporte y más en formato de streaming.
+Este repositorio cuenta con una app web realizada con [Angular CLI](https://github.com/angular/angular-cli) version 16.2.14. Se trata de una aplicacion frontend para la visualizacion de peliculas, series, deportes y más en formato de streaming.
 
 ### Objetivo
 El objetivo es crear una aplicación full stack siendo este proyecto la parte del frontend que sera conectada a un backend para la visualizacion de archivos multimedia.
@@ -13,8 +13,8 @@ GIT: Debe tener Instalado GIT
 
 ## 3. ¿Cómo ejecutar la aplicación?
 
--- Cloná el repositorio haciendo git clone https://github.com/MoisesReyesOrea/Hub-de-entretenimiento--Programa-MegaLiderly.git  
--- Instalá de los paquetes y módulos requeridos: npm install  
+-- Clona el repositorio haciendo git clone https://github.com/MoisesReyesOrea/Hub-de-entretenimiento--Programa-MegaLiderly.git  
+-- Instala de los paquetes y módulos requeridos: npm install  
 -- Abre cualquier terminal en la direccion dentro de la carpeta del proyecto y ejecuta el comando 'npm start' o 'ng serve' o bien hacerlo desde un editor de código.  
 -- Abre algún navegador y ve a la dirección `http://localhost:4200/` la aplicación se ejecutará en ese enlace.  
 
@@ -35,6 +35,18 @@ Página de inicio de la aplicación aquí se muestran algunas recomendaciónes p
 ![movies-page](https://github.com/user-attachments/assets/4e367769-3835-4c39-b5fc-46e22e32f06c)
 
 Pagina de peliculas, aqui se muestran todas las peliculas disponibles en el momento, hay otras páginas similares con contenido distinto como series, eventos deportivos, historial de visitas y favoritos.
+
+### Pruebas Unitarias
+Como parte de la calidad del software se realizan los testing correspondientes a las funciones más importantes de la aplicación.
+
+![Captura de pantalla 2024-07-25 121505](https://github.com/user-attachments/assets/a8fb64fe-e779-41d2-8b2c-128181423999)
+
+![Captura de pantalla 2024-07-25 121528](https://github.com/user-attachments/assets/e3158d34-f226-47bc-99bd-71f768c7bd8f)
+
+Codigo para el testing de la sección 'LOGIN' de la aplicacion, se ejecutan pruebas que se encargan de verificar las validaciones de los datos ingresados en el formulario. 
+
+#### Reporte Code Coverage:
+![Captura de pantalla 2024-07-25 121104](https://github.com/user-attachments/assets/762c4499-7c74-4fb0-88b9-10e49c4915ae)
 
 ## 5. Proceso de desarrollo
 
