@@ -13,7 +13,7 @@ GIT: Debe tener Instalado GIT
 
 ## 3. ¿Cómo ejecutar la aplicación?
 
--- Clona el repositorio haciendo ```git clone https://github.com/MoisesReyesOrea/Hub-de-entretenimiento--Programa-MegaLiderly.git```  
+-- Clona el repositorio haciendo ```git clone https://github.com/MoisesReyesOrea/Hub-de-Entretenimiento_Angularv16_MegaLiderly.git```  
 -- Instala de los paquetes y módulos requeridos: ```npm install```  
 -- Abre cualquier terminal en la direccion dentro de la carpeta del proyecto y ejecuta el comando ```'npm start'``` o ```'ng serve'``` o bien hacerlo desde un editor de código.  
 -- Abre algún navegador y ve a la dirección `http://localhost:4200/` la aplicación se ejecutará en ese enlace.  
