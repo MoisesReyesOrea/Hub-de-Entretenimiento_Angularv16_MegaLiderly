@@ -13,15 +13,15 @@ GIT: Debe tener Instalado GIT
 
 ## 3. ¿Cómo ejecutar la aplicación?
 
--- Clona el repositorio haciendo git clone https://github.com/MoisesReyesOrea/Hub-de-entretenimiento--Programa-MegaLiderly.git  
--- Instala de los paquetes y módulos requeridos: npm install  
--- Abre cualquier terminal en la direccion dentro de la carpeta del proyecto y ejecuta el comando 'npm start' o 'ng serve' o bien hacerlo desde un editor de código.  
+-- Clona el repositorio haciendo ```git clone https://github.com/MoisesReyesOrea/Hub-de-entretenimiento--Programa-MegaLiderly.git```  
+-- Instala de los paquetes y módulos requeridos: ```npm install```  
+-- Abre cualquier terminal en la direccion dentro de la carpeta del proyecto y ejecuta el comando ```'npm start'``` o ```'ng serve'``` o bien hacerlo desde un editor de código.  
 -- Abre algún navegador y ve a la dirección `http://localhost:4200/` la aplicación se ejecutará en ese enlace.  
 
 ## 4. Explicación
 ![ejecucion](https://github.com/user-attachments/assets/1fb79272-7f6f-4588-aa74-1d883f188433)
 
-Para correr la aplicación se ejecuta el comando 'npm start', esta imágen muestra el server en ejecucion para el funcionamiento de la aplicación.
+Para correr la aplicación se ejecuta el comando ```'npm start'```, esta imágen muestra el server en ejecucion para el funcionamiento de la aplicación.
 
 
 ![inicio-de-sesion](https://github.com/user-attachments/assets/e65a4703-e9eb-452d-bf50-f32066e4c494)
@@ -58,14 +58,14 @@ Diseñado para la creación eficiente de aplicaciones web dinámicas y de una so
 
 
 ## 6. Tabla con Sprint Review
-¿Qué salio bien?  
-La navegación entre componentes es fluida y dinámica, así como la comunicación entre ellos.
+**¿Qué salio bien?**  
+- La navegación entre componentes es fluida y dinámica, así como la comunicación entre ellos.
 
-¿Qué puedo hacer diferente?
-Se pudieran crear servicios, organizar mejor los componentes y modulos para reutilizar de una mejor manera el código, ademas de que se da una mejor eficiencia y facilidad de escalamiento a la aplicación.  
+**¿Qué puedo hacer diferente?**
+- Se pudieran crear servicios, organizar mejor los componentes y modulos para reutilizar de una mejor manera el código, ademas de que se da una mejor eficiencia y facilidad de escalamiento a la aplicación.  
 
-¿Qué no salio bien ?  
-El manejo de listas como: favoriteList, viewedList, popularList que son listas dinamicas que van agregando o eliminando elementos durante la ejecución y actualizar eso de manera reactiva no salio como esperaba.
+**¿Qué no salio bien ?**  
+- El manejo de listas como: favoriteList, viewedList, popularList que son listas dinamicas que van agregando o eliminando elementos durante la ejecución y actualizar eso de manera reactiva no salio como esperaba.
 
 
 
