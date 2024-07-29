@@ -49,7 +49,7 @@ Codigo para el testing de la sección 'LOGIN' de la aplicacion, se ejecutan prue
 ![Captura de pantalla 2024-07-25 121104](https://github.com/user-attachments/assets/762c4499-7c74-4fb0-88b9-10e49c4915ae)
 
 
-### Conección a API desarrollada en express.js para acceder a base de datos realizada en SQL Server  
+### Conexión a API desarrollada en express.js para acceder a base de datos realizada en SQL Server  
 **NOTA: El repositorio que contiene el proyecto de la API y la Base de datos esta en el siguiente enlace: https://github.com/MoisesReyesOrea/Hub-de-Entretenimiento_Backend-ExpressJS_MEGA**
 
 En la siguiente imagen se muestra la página login de la interfaz en Angular conectada a la API en la ruta: ```http://localhost:3000``` y recibiendo respuesta con status: 200, despues de validar que el usuario y la contraseña ingresadas son correctas y existen en la base de datos SQL Server.
@@ -66,10 +66,6 @@ Si el usuario ingresado no existe en la base de datos se devuelve un error y un 
 
 Si el usuario sí existe en la BD pero la contraseña no coincide con la registrada, se devuelve un error y un mensaje de 'Contraseña incorrecta'.
 ![ContraseñaIngresadaIncorrectamente](https://github.com/user-attachments/assets/abca7b8c-c09c-4cdb-8ecc-5a5dd7a07a5e)
-
-Diagrama E-R de la base de datos. NOTA: El archivo de la base de datos se encuentra en este mismo repositorio en la carpeta 'DB SQL Server', [DB_SQL_Server](DB_SQL_Server)
-
-![Diagrama E-R Hub entretenimiento](https://github.com/user-attachments/assets/3c63924d-c57f-4b29-a476-79e87671f9df)
 
 
 
