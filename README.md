@@ -37,7 +37,7 @@ Página de inicio de la aplicación aquí se muestran algunas recomendaciónes p
 Pagina de peliculas, aqui se muestran todas las peliculas disponibles en el momento, hay otras páginas similares con contenido distinto como series, eventos deportivos, historial de visitas y favoritos.
 
 ### Pruebas Unitarias
-Como parte de la calidad del software se realizan los testing correspondientes a las funciones más importantes de la aplicación.
+Como parte de la calidad del software se realizan los testing correspondientes a los componentes y servicios de la aplicación.
 
 ![Captura de pantalla 2024-07-25 121505](https://github.com/user-attachments/assets/a8fb64fe-e779-41d2-8b2c-128181423999)
 
