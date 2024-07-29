@@ -47,7 +47,7 @@ Codigo para el testing de la sección 'LOGIN' de la aplicacion, se ejecutan prue
 
 
 
-### Conexión a API desarrollada en express.js para acceder a base de datos realizada en SQL Server  
+### Conexión con API REST desarrollada en express.js para acceder a base de datos realizada en SQL Server  
 **NOTA: El repositorio que contiene el proyecto de la API y la Base de datos está en el siguiente enlace: https://github.com/MoisesReyesOrea/Hub-de-Entretenimiento_Backend-ExpressJS_MEGA**
 
 En la siguiente imagen se muestra la página login de la interfaz en Angular conectada a la API en la ruta: ```http://localhost:3000``` y recibiendo respuesta con status: 200, despues de validar que el usuario y la contraseña ingresadas son correctas y existen en la base de datos SQL Server.
