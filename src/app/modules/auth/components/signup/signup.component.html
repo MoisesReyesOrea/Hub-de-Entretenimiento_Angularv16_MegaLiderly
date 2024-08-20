@@ -6,8 +6,10 @@
     <div class="login-form">
         <h1>¡Únete a nosotros!</h1>
         <form (submit)="sendSignup()" class="form-login" [formGroup]="formSignup">
-            <label for="name">Nombre completo</label>
+            <label for="name">Nombre</label>
             <input type="text" id="name" formControlName="name">
+            <label for="lastName">Apellido</label>
+            <input type="text" id="lastName" formControlName="lastName">
             <label for="age">Edad</label>
             <input type="number" id="age" formControlName="age">
             <label for="e-mail">Correo electrónico</label>
@@ -16,7 +18,7 @@
             <input type="password" id="password" formControlName="password">
             <label for="passwordVerication">Confirma tu contraseña</label>
             <input type="password" id="passwordVerication" formControlName="passwordVerication">
-            <button [routerLink]="['/','auth','login']" [disabled]="formSignup.invalid">Suscribirse</button>
+            <button type="button" (click)="sendSignup()" id="signup-button" [routerLink]="['/','auth','login']" [disabled]="formSignup.invalid">Suscribirse</button>
         </form>
 
         <form action=""></form>

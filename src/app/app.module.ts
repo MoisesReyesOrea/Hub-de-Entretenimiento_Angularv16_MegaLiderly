@@ -8,6 +8,7 @@ import { AppComponent } from './app.component';
 
 import {MatIconModule} from '@angular/material/icon';
 import { AuthService } from './modules/auth/services/auth.service';
+import { CookieService } from 'ngx-cookie-service';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,9 @@ import { AuthService } from './modules/auth/services/auth.service';
     HttpClientModule,
     ReactiveFormsModule
   ],
-  providers: [AuthService],
+  providers: [AuthService, 
+    CookieService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
